@@ -178,7 +178,7 @@ a img { border: none; }
 #wrap section.me { background: url("../images/section.me.jpg")no-repeat center/cover; width: 100%; position: relative; padding: 100px 0; min-width: 1398px; height: 840px; } 
 
 #wrap section.me .meInner { width: 1398px; height: 100%; /* border: 1px solid red; */
- margin: 0 auto; } 
+ margin: 0 auto; min-width: 1398px;  } 
 
 /* list */
 #wrap section.me .meInner .list { width: 1398px; margin-top: 60px; border-top: 1px solid #000; } 
